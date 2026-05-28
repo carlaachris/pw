@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Array</title>
+</head>
+<body>
+
+<script>
+
+    var nome = []
+
+    nome.push("alana")
+    nome.push("alicya")
+    nome.push("kewilly")
+    nome.push("mara")
+    nome.push("carol")
+    nome.push("ariel")
+    nome.push("carla")
+    nome.push("natan")
+    nome.push("eloa")
+    nome.push("estefani")
+
+    nome.pop()
+    nome.pop()
+    nome.pop()
+
+    nome.sort()
+
+    var frase = nome.reduce(function(texto, nom){
+        return texto + " " + nom
+    })
+
+    document.write("<h2>frase:</h2>")
+    document.write(frase)
+
+    document.write("<h2>todos os nomes:</h2>")
+
+    nome.forEach(function(nom){
+        document.write(nom)
+    })
+
+    var procurar = nome.find(function(item){
+        return item == "carla"
+    })
+
+    var filtrar = nome.filter(function(item){
+        return item.startsWith("c")
+    })
+
+    document.write("<h2>nome encontrado:</h2>")
+    document.write(procurar)
+
+    document.write("<h2>nomes com C:</h2>")
+
+    filtrar.forEach(function(item){
+        document.write(item)
+    })
+
+    document.write("<h2>quantidade de nomes:</h2>")
+    document.write(nome.length)
+
+
+
+    
+    nome.splice(1, 0, "bruna")
+
+    
+    nome.splice(2, 1)
+
+    
+    nome.splice(1, 1, "camila")
+
+    document.write("<h2>Array após splice:</h2>")
+
+    nome.forEach(function(item){
+        document.write(item)
+    })
+
+</script>
+
+</body>
+</html>

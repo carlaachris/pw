@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Alunos</title>
+</head>
+<body>
+
+<script>
+
+    var alunos = [ 
+        {nome:"carla", idade:15, numero:7},
+        {nome:"manu", idade:15, numero:26},
+        {nome:"rafa", idade:16, numero:38},
+        {nome:"duda", idade:16, numero:31},
+        {nome:"ariel", idade:16, numero:6},
+        {nome:"thalys", idade:17, numero:41},
+        {nome:"luh", idade:16, numero:35},
+        {nome:"Alicya", idade:15, numero:2},  
+        {nome:"eloisa", idade:17, numero:32},
+        {nome:"vitoria", idade:16, numero:36}
+    ]
+
+    document.write("<h1>lista de alunos</h1>")
+
+    alunos.forEach(function(aluno){
+
+        document.write(
+            "Nome: " + aluno.nome + "<br>" +
+            "Idade: " + aluno.idade + "<br>" +
+            "Número: " + aluno.numero + "<br><br>"
+        )
+
+    })
+
+</script>
+
+</body>
+</html>

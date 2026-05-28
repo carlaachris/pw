@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "nome": "Base",
+        "preco": 59.0,
+        "categoria": "Rosto"
+    },
+    {
+        "id": 2,
+        "nome": "Corretivo",
+        "preco": 35.0,
+        "categoria": "Rosto"
+    },
+    {
+        "id": 3,
+        "nome": "Pó Compacto",
+        "preco": 42.9,
+        "categoria": "Rosto"
+    },
+    {
+        "id": 4,
+        "nome": "Blush o",
+        "preco": 28.5,
+        "categoria": "Rosto"
+    },
+    {
+        "id": 5,
+        "nome": "Paleta de Sombras Nude",
+        "preco": 89.9,
+        "categoria": "Olhos"
+    },
+    {
+        "id": 6,
+        "nome": "Máscara de Cílios",
+        "preco": 39.0,
+        "categoria": "Olhos"
+    },
+    {
+        "id": 7,
+        "nome": "Delineador Líquido",
+        "preco": 25.0,
+        "categoria": "Olhos"
+    },
+    {
+        "id": 8,
+        "nome": "Batom vermelho",
+        "preco": 19.9,
+        "categoria": "Lábios"
+    },
+    {
+        "id": 9,
+        "nome": "Gloss ",
+        "preco": 22.0,
+        "categoria": "Lábios"
+    },
+    {
+        "id": 10,
+        "nome": "Primer ",
+        "preco": 45.0,
+        "categoria": "Rosto"
+    }
+]
